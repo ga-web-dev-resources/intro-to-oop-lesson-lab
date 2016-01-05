@@ -35,9 +35,3 @@ pets.each do |pet|
   puts pet
   puts pet.speak
 end
-
-# TODO:
-#  add the following pet species: Bird (says tweet, tweet), Frog (says ribbit)
-#  add the gender color properties to the Pet class
-#  add a method with the name inc_age that increments the age of the pet by 1 year
-#  Convert owner to a Person object with a first_name and a last_name
