@@ -23,8 +23,8 @@ class Pet
 end
 
 pets = [
-  Pet.new('Dog', 'Snoopy',   7, 'Charlie'),
-  Pet.new('Cat', 'Snuggles', 3, 'John')
+  Pet.new('Dog', 'Snoopy', 7, 'Charlie'),
+  Pet.new('Cat', 'Felix',  3, 'Cindy')
 ]
 
 pets.each do |pet|
