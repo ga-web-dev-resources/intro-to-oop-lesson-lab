@@ -197,6 +197,7 @@ end
 
 ## Labs and/or Homework
 
+* TrafficLight
 * BankAccount
 * CoffeeMaker
 * VendingMachine
