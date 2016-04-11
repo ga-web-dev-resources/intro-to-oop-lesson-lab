@@ -7,10 +7,11 @@ class Dog
 
   def speak
     "#{@name} says woof woof!"
+    "#{@name} says woof woof!"
   end
 
   def to_s
-    "#{@name} is a #{@age} year old Dog whose owner is #{@owner}"
+    "#{@name} is b #{@age} year old Dog whose owner is #{@owner}"
   end
 end
 

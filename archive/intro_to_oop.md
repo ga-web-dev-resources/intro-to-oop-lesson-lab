@@ -1,6 +1,5 @@
 ## Intro to OOP
 
-
 <br>
 
 ##IWBAT…
@@ -32,7 +31,7 @@
 	- Instance: Specific case
 	- Example could be a Bike class, instance would be my_bike
 - Live coding - Let's build a Student class
-	
+
 ```
 # A basic class
 # Classes are capitalized
@@ -53,9 +52,8 @@ puts bob
 	- Bob is an instance of the Student class
 	- Bob has variables specific to him, so those are instance variables
 
-```
+```ruby
 # A class with constructor arguments and private instance variables:
-
 class Student
   def initialize(name, age=100)
     @name = name
@@ -230,9 +228,9 @@ end
 ```
 
  <br>
- 
 
-##Lab 
+
+##Lab
 
 - Utopia self-examination
 - Smoothies Lab
