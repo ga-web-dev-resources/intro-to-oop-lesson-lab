@@ -197,10 +197,10 @@ end
 
 ## Labs and/or Homework
 
-* TrafficLight
-* BankAccount
-* CoffeeMaker
-* VendingMachine
+* [Traffic Light](labs/traffic_light)
+* [Bank Account](labs/bank_account)
+* [Coffee Maker](labs/coffee_maker)
+* [Hacker Cola Vending Machine](labs/hacker_cola)
 
 ## Quiz
 
