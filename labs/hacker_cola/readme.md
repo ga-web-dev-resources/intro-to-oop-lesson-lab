@@ -1,4 +1,15 @@
-# HackerCola Vending Machine
+---
+title: HackerCola Vending Machine
+type: lab
+duration: "0:30"
+creator:
+    name: Mike Hopper
+    city: Atlanta
+---
+
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) HackerCola Vending Machine
+
+## Introduction
 
 Classes and objects are great at *encapsulating* both state (data) and behavior (methods). In this exercise we will use Ruby to create a class that encapsulates the state and behavior of a vending machine. The vending machine will manage state such as:
 
@@ -7,18 +18,20 @@ Classes and objects are great at *encapsulating* both state (data) and behavior 
 * the current `amount_deposited` into the machine towards the purchase of a cola
 * the `total_sold` - i.e. the total number of colas sold by this machine
 
-## Write a vending machine class that sells HackerCola.
+#### Requirements
 
-* This simple vending machine only dispenses one product: HackerCola
-* The vending machine should keep track of:
+Write a vending machine class that sells HackerCola.
+
+- This simple vending machine only dispenses one product: HackerCola
+- The vending machine should keep track of:
     - the `price` for a HackerCola in cents
     - the current `quantity` of HackerCola in the vending machine
     - the `amount_deposited` towards the purchase of a HackerCola in cents
     - the `total_sold` - the number of colas sold by this machine
-* The initialize method should take the following arguments:
+- The initialize method should take the following arguments:
     - the `price` for a HackerCola
     - the initial `quantity` of HackerCola
-* Write a method for each coin that the vending machine recognizes:
+- Write a method for each coin that the vending machine recognizes:
    - nickel, dime, quarter
    - each method should increase the `amount_deposited` accordingly
 * A `purchase` method that returns a HackerCola and the correct change.
@@ -31,11 +44,11 @@ Classes and objects are great at *encapsulating* both state (data) and behavior 
    - if `purchase` is called with no more HackerCola, return an error message
      and the `amount_deposited`, for example:
      `{ message: 'Sold Out', change: 75 }`
-* A `refill` method that takes a quantity argument and adds it to the
+- A `refill` method that takes a quantity argument and adds it to the
   current `quantity`.
-* A nice `to_s` method that prints the state of the VendingMachine:
+- A nice `to_s` method that prints the state of the VendingMachine:
   `HackerCola: quantity=88, total_sold=12, price=75, amount_deposited=25`
-* Use the following to test your VendingMachine
+- Use the following to test your VendingMachine
 
 ```ruby
 vending_machine = HackerColaVendingMachine.new(100, 75)

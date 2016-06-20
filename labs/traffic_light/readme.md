@@ -1,4 +1,14 @@
-# Traffic Light
+---
+title: Traffic Light
+type: lab
+duration: "0:30"
+creator:
+    name: Mike Hopper
+    city: Atlanta
+---
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Traffic Light
+
+#### Requirements
 
 Write a class that defines the basic state and behavior of a traffic light. The class should have the following:
 

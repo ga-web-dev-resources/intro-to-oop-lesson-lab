@@ -1,6 +1,17 @@
-# CoffeeMaker
+---
+title: Coffee Maker
+type: lab
+duration: "0:30"
+creator:
+    name: Mike Hopper
+    city: Atlanta
+---
 
-## Write a CoffeeMaker class with a `water_level` and a coffee `cartridge`.
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Coffee Maker
+
+#### Requirements
+
+Write a CoffeeMaker class with a `water_level` and a coffee `cartridge`.
 
 * The `CoffeeMaker` class should have the following:
     - instance vars: `water_level`, `cartridge` (use `attr_reader` for these)

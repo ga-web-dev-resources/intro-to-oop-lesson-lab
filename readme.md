@@ -1,32 +1,29 @@
+---
+title: Introduction to Object Oriented Programming
+duration: "2:00"
+creator:
+    name: Mike Hopper
+    city: Atlanta
+---
+
 # Introduction to Object Oriented Programming
-(2 hours including the Lab)
 
-## Learning Objectives - IWBAT
-### Concepts
+This lesson will take two hours including **quiz** and **labs**.
 
-* Describe OOP
-* List the advantages of OOP
-* Describe the following
-  - class
-  - object
-  - instance variable
-  - method
-  - interface
-  - implementation
-  - encapsulation
+## Learning Objectives
 
-### Skills
-
-* Write a class in Ruby with the following features
+- Describe OOP
+- List the advantages of OOP
+- Describe what a class, object, instance variable, method, interface, implementation and encapsulation are.
+- Write a class in Ruby with the following features
   - A constructor method
   - Some instance variables
   - Some public methods
   - Getters, Setters, attr_accessors
   - A singleton method using the `self` keyword
-  - Create a few classes that extend from a parent class
-  - Add custom behavior to the sub-classes.
+- Create a few classes that extend from a parent class
 
-## Why OOP
+## Introduction: Why OOP
 
 * Often programs can be thought of as *data* (variables) and *actions* (functions) that operate on that data.
 * But programs can get big, *really* big.
