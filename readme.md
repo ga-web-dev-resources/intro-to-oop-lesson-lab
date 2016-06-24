@@ -6,12 +6,10 @@ creator:
     city: Atlanta
 ---
 
-# Introduction to Object Oriented Programming
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Introduction to Object Oriented Programming
 
-This lesson will take two hours including **quiz** and **labs**.
-
-## Learning Objectives
-
+### LEARNING OBJECTIVES
+*After this lesson, you will be able to:*
 - Describe OOP
 - List the advantages of OOP
 - Describe what a class, object, instance variable, method, interface, implementation and encapsulation are.
@@ -22,6 +20,11 @@ This lesson will take two hours including **quiz** and **labs**.
   - Getters, Setters, attr_accessors
   - A singleton method using the `self` keyword
 - Create a few classes that extend from a parent class
+
+## LESSON COMPONENTS
+- Lecture
+- Quiz
+- Labs
 
 ## Introduction: Why OOP
 
